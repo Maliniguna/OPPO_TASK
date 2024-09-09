@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite IT Moderna", cursive;
+    scroll-behavior: smooth;
+}
+#navbar1{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+}
+#navbarSupportedContent a{
+    color: #bcbaba;
+    padding: 9px !important;
+}
+#navbarSupportedContent a:hover{
+    color: #7b7b7b;
+}
+.dropdown-menu{
+    background-color: rgb(87, 83, 79);
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#intro h1{
+    text-align: left;
+}
+#intro{
+    background:url(https://assorted.downloads.oppo.com/static/assets/products/find-x2-pro/images/home/appearance/[pro_en]sec-4-bg-d8582100b60a690f1c65237f41056ff4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#intro h1{
+    font-size: 100px;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px rgb(95, 93, 93),
+                 0px 2px 0px rgb(255, 255, 255),
+                 0px 3px 0px rgb(255, 255, 255),
+                 0px 4px 0px white,
+                 0px 5px 0px white,
+                 0px 6px 0px rgb(135, 132, 132);
+}
+#sndpage{
+    background: linear-gradient(to right,#7b7b7b,#5b5a5a 100%);
+    padding: 5%;
+}
+#sndpage h3{
+    font-weight: 300;
+    font-size: 25px;
+}
+#sndpage h2{
+    font-weight: 800;
+    font-size: 25px;
+}
+.thdpage{
+    background: linear-gradient(to right,#3b3b3b,#575757 100%);
+    padding: 10%;
+}
+.img3{
+    float: right;
+}
+.thdpage h1{
+    color: #acaaaa;
+}
+.thdpage h3{
+    color: #c8c6c6;
+}
+.img5{
+    padding: 10%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    background-color: #262525;
+}
+#cards{
+    background: #8d8d8d;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background: #7b7b7b;
+    border-radius: 10% !important;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.card:hover{
+    padding-right: 4px;
+}
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #4f4f4f;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #000000;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #434544;
+    transition: .6s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+   
+   button:hover {
+    color: #faf5f5;
+   }
+#carouselExampleCaptions{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5%;
+    margin: 5%;
+    background: #414141;
+}
+.detailwork{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to right,#3b3b3b,#575757 100%);
+    padding: 15%;
+}
+.detailwork1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to right,#3b3b3b,#575757 100%);
+    column-gap: 1cm;
+}
+.detailwork1 h3{
+    color: #a7a6a6;
+    font-weight:bolder;
+}
+.detailwork1 h2{
+    color: #222222;
+    font-weight:bolder;
+}
+.footer{
+    background: #000000;
+    padding: 5%;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #414141;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #a7a6a6;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col li:hover{
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255.0.2);
+    margin: 0 20px 20px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.footer-col .social-links a:hover{
+    color: #6d6d6d;
+}
+   
+
